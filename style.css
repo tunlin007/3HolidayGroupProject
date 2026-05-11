@@ -891,4 +891,24 @@ p {
 .footer-right ul li a:hover {
     color: #888;
 }
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 850px) {
+    .testimonial-section, .faq-section {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .faq-section {
+        flex-direction: column-reverse;
+    }
+
+    .main-container {
+        margin: 0 10px;
+    }
+}
 
